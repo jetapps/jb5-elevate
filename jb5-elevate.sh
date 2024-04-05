@@ -33,7 +33,7 @@ esac
 
 # Check if the --pre flag was provided
 if $pre_flag; then
-  echo "The --pre flag was provided. Performing Pre-Elevate steps to get JB5 ready for Elevate..."\
+  echo "The --pre flag was provided. Performing Pre-Elevate steps to get JB5 ready for Elevate..."
   echo "Removing jetphp81-zip..."
 
 /usr/bin/rpm -e --nodeps jetphp81-zip
